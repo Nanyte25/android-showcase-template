@@ -115,28 +115,28 @@ public class MainActivity extends BaseActivity
             navigator.navigateToHomeView(this);
         }
         // Visit the Authentication Screen
-        if (id == R.id.nav_authentication) {
+        if (id == R.id.nav_identity_management) {
             navigator.navigateToAuthenticationView(this);
         }
         // Visit the Access Control Screen
-        if (id == R.id.nav_accesscontrol) {
+        if (id == R.id.nav_security) {
             navigator.navigateToAccessControlView(this);
         }
         // Visit the Storage Screen
-        if (id == R.id.nav_storage) {
+        if (id == R.id.nav_security_storage) {
             navigator.navigateToStorageView(this);
         }
         // Visit the Device Screen
-        if (id == R.id.nav_device) {
+        if (id == R.id.nav_security_device_trust) {
             navigator.navigateToDeviceView(this);
         }
         // Visit the Network Screen
-        if (id == R.id.nav_network) {
+        if (id == R.id.nav_security_cert_pinning) {
             navigator.navigateToNetworkView(this);
         }
 
         // Visit the Push Screen
-        if (id == R.id.nav_push) {
+        if (id == R.id.nav_push_messages) {
             navigator.navigateToPushView(this);
         }
 
